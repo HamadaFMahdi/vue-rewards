@@ -1,5 +1,5 @@
 ![vue-rewards logo](assets/logo.png?raw=true "vue-rewards")
-[![npm version](https://badge.fury.io/js/vue-rewards.svg)](https://badge.fury.io/js/vue-rewards)
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=1.0.0&x2=0)](https://badge.fury.io/js/vue-rewards)
 <!-- [![npm version](https://badge.fury.io/js/react-rewards.svg)](https://badge.fury.io/js/react-rewards) [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) -->
 
 <!-- :evergreen_tree: **Tree-shakeable**
