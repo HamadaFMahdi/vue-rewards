@@ -72,7 +72,7 @@ You can use this package in both the composition API and the options API.
 
 ### Using the Composition API
 
-```js
+```vue
 <script setup>
   import { useReward } from 'vue-rewards'
   import { onMounted } from 'vue'
@@ -119,7 +119,7 @@ You can use this package in both the composition API and the options API.
 
 Since we registered the plugin earlier we now have access to the `$reward` method in our components. `$reward` is the same as `useReward`. To get the same as above we do:
 
-```js
+```vue
 <template>
   <span id="some-id"> Let's celebrate! <span/>
   <button @click="balloonsReward">
