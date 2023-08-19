@@ -1,5 +1,5 @@
 ![vue-rewards logo](assets/logo.png?raw=true "vue-rewards")
-
+[![npm version](https://badge.fury.io/js/vue-rewards.svg)](https://badge.fury.io/js/vue-rewards)
 <!-- [![npm version](https://badge.fury.io/js/react-rewards.svg)](https://badge.fury.io/js/react-rewards) [![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) -->
 
 <!-- :evergreen_tree: **Tree-shakeable**
@@ -14,7 +14,7 @@ This package is a port of [react-rewards](https://github.com/thedevelobear/react
 
 ## Demo
 
-Here is a [simple demo](https://github.com/HamadaFMahdi/vue-rewards) and here's the [code for the demo](https://github.com/HamadaFMahdi/vue-rewards-demo).
+Here is a [simple demo](https://vuerewards.netlify.app) and here's the [code for the demo](https://github.com/HamadaFMahdi/vue-rewards-demo).
 
 ## About
 
@@ -152,15 +152,15 @@ Since we registered the plugin earlier we now have access to the `$reward` metho
 
 ### Props & config
 
-useReward params:
+useReward/$reward params:
 
-| name   | type   | description                                       | required   | default   |
-| ------ | ------ | ------------------------------------------------- | ---------- | --------- | --- | ---------- |
-| id     | string | A unique id of the element you want to shoot from | yes        |           |
-| type   | string | 'confetti'                                        | 'balloons' | 'emoji'   | yes | 'confetti' |
-| config | object | a configuration object described below            | no         | see below |
+| name            | type   | description                                            | required   |default      |
+|-----------------|--------|--------------------------------------------------------|------------|-------------|
+| id              | string | A unique id of the element you want to shoot from      | yes        |             |
+| type            | string | 'confetti' | 'balloons' | 'emoji'                      | yes        |'confetti'   |
+| config          | object | a configuration object described below                 | no         |see below    |
 
-Confetti config object:
+Confetti config object: 
 
 | name                | type       | description                                        | default                                                 |
 | ------------------- | ---------- | -------------------------------------------------- | ------------------------------------------------------- |

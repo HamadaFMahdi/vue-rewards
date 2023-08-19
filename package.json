@@ -1,17 +1,22 @@
 {
   "name": "vue-rewards",
-  "version": "0.0.10",
+  "version": "1.0.0",
+  "licence": "MIT",
   "description": "Vue-rewards lets you add micro-interactions to your app, and rewards users with the rain of confetti, emoji or balloons in seconds.",
   "type": "module",
+  "homepage": "https://github.com/HamadaFMahdi/vue-rewards",
   "main": "./dist/vue-rewards.umd.cjs",
   "module": "./dist/vue-rewards.js",
   "types": "./dist/index.d.ts",
-  "licence": "MIT",
   "exports": {
     ".": {
       "import": "./dist/vue-rewards.umd.cjs",
       "require": "./dist/vue-rewards.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamadaFMahdi/vue-rewards"
   },
   "files": [
     "dist",
@@ -30,7 +35,7 @@
     "emoji",
     "celebration"
   ],
-  "author": "Hamada Fadil Mahdi",
+  "author": "Hamada Fadil Mahdi (https://x.com/hamadamahdii)",
   "peerDependencies": {
     "vue": "^3.3.4"
   },
