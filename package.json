@@ -1,0 +1,45 @@
+{
+  "name": "vue-rewards",
+  "version": "0.0.10",
+  "description": "Vue-rewards lets you add micro-interactions to your app, and rewards users with the rain of confetti, emoji or balloons in seconds.",
+  "type": "module",
+  "main": "./dist/vue-rewards.umd.cjs",
+  "module": "./dist/vue-rewards.js",
+  "types": "./dist/index.d.ts",
+  "licence": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-rewards.umd.cjs",
+      "require": "./dist/vue-rewards.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "confetti",
+    "rewards",
+    "emoji",
+    "celebration"
+  ],
+  "author": "Hamada Fadil Mahdi",
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.2",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.5"
+  }
+}
