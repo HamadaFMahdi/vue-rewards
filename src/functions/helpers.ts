@@ -66,10 +66,7 @@ export const generatePhysics = (
 };
 
 export const getContainerById = (id: string) => {
-  console.log(id);
-  console.log(document);
   const container = document.getElementById(id);
-  console.log(container);
   if (!container) {
     console.error(
       `Element with an ID of ${id} could not be found. Please provide a valid ID.`

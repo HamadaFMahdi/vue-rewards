@@ -1,6 +1,6 @@
 {
   "name": "vue-rewards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "licence": "MIT",
   "description": "Vue-rewards lets you add micro-interactions to your app, and rewards users with the rain of confetti, emoji or balloons in seconds.",
   "type": "module",
