@@ -10,8 +10,8 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vue-rewards.umd.cjs",
-      "require": "./dist/vue-rewards.js"
+      "require": "./dist/vue-rewards.umd.cjs",
+      "import": "./dist/vue-rewards.js"
     }
   },
   "repository": {
