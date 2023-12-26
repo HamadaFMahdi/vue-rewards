@@ -22,7 +22,7 @@ Here is a [simple demo](https://vuerewards.netlify.app) and here's the [code for
 Firing confetti all over the page may seem like a questionable idea, but keep in mind that rewarding users for their actions is not.
 If a huge cloud of smiling emoji doesn't fit your application well, try changing the physics config to make it more subtle.
 
-You can read more on the subject of micro-interactions in my blog post – https://www.thedevelobear.com/post/microinteractions/
+You can read more on the subject of micro-interactions in this blog post – https://www.thedevelobear.com/post/microinteractions/
 
 ## Installation
 
