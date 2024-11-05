@@ -108,7 +108,7 @@ You can use this package in both the composition API and the options API.
 </script>
 
 <template>
-  <span id="some-id"> Let's celebrate! <span/>
+  <span id="some-id"> Let's celebrate! </span>
   <button @click="balloonsReward">
     Click me!
   </button>
