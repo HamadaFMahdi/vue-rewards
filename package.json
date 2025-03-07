@@ -11,7 +11,8 @@
   "exports": {
     ".": {
       "require": "./dist/vue-rewards.umd.cjs",
-      "import": "./dist/vue-rewards.js"
+      "import": "./dist/vue-rewards.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "repository": {
