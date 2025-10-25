@@ -65,7 +65,17 @@ export const generatePhysics = (
   };
 };
 
-export const getContainerById = (id: string) => {
+export const getContainerById = (id: string | HTMLElement): HTMLElement | null => {
+  // If it's already an HTMLElement, return it directly
+  if (typeof id !== 'string') {
+    if (id instanceof HTMLElement) {
+      return id;
+    }
+    console.error('Invalid argument: expected a string ID or HTMLElement');
+    return null;
+  }
+  
+  // Otherwise, treat it as an ID string
   const container = document.getElementById(id);
   if (!container) {
     console.error(
