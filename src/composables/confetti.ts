@@ -37,7 +37,7 @@ export function useReward(
         balloons(foundContainer, internalAnimatingCallback, config as BalloonsConfig);
         break;
       default:
-        console.error(`${type} is not a valid react-rewards type.`);
+        console.error(`${type} is not a valid vue-rewards type.`);
     }
   };
 
